@@ -138,6 +138,37 @@ a {
     text-align: justify;
 }
 
+/* Discount start  */
+#discount {
+    padding: 200px 0;
+    margin-bottom: 85px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/discount-bg.jpg);
+}
+
+.discount-content {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.discount-content h3 {
+    font-size: 50px;
+}
+
+.discount-content .btn {
+    margin-bottom: 30px;
+}
+
+.discount-content p {
+    text-align: justify;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
 /* Counter */
 .counter-content {
     width: 100%;
