@@ -12,11 +12,11 @@ a {
     text-decoration: none;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
-.title {    
+.title {
     color: #333;
     font-weight: bold;
     font-family: 'Cookie', cursive;
@@ -24,11 +24,16 @@ a {
 
 .btn {
     color: #fff;
+    opacity: 0.8;
     font-size: 16px;
     font-weight: 700;
     padding: 15px 30px;
     border-radius: 30px;
-    background-image: linear-gradient(to right, #02baba, #008080);   
+    background-image: linear-gradient(to right, #50a46e, #0f8038);
+}
+
+.btn:hover {
+    opacity: 1;
 }
 
 .half-width {
@@ -41,4 +46,28 @@ a {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Banner Section */
+#banner {
+    padding: 70px 0 80px;
+}
+
+.banner-left h3 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.banner-left h3 span {
+    color: #0f8038;
+}
+
+.banner-left p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.banner-right img {
+    width: 80%;
 }
