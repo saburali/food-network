@@ -195,6 +195,25 @@ a {
     letter-spacing: 2px;
 }
 
+/* App Download */
+#app {
+    background-color: #d7eafb;
+}
+
+.app-content {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.app-content .title {
+    margin: 25px 0;
+}
+
+.app-content img {
+    width: 40%;
+}
+
 /* Footer */
 #footer {
     background-color: #0b0e17;
