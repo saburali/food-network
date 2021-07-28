@@ -22,6 +22,10 @@ a {
     font-family: 'Cookie', cursive;
 }
 
+.title span {
+    color: #0f8038;
+}
+
 .btn {
     color: #fff;
     opacity: 0.8;
@@ -177,9 +181,6 @@ a {
     text-decoration: none;
 }
 
-.footer .title a span {
-    color: #0f8038;
-}
 
 .footer p {
     margin: 0;
