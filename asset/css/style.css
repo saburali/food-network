@@ -71,3 +71,28 @@ a {
 .banner-right img {
     width: 80%;
 }
+
+/* About Section */
+.about-left img {
+    width: 100%;
+    margin-left: -30%;
+}
+
+.about-right h3 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.about-right p {
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+#about {
+    padding: 70px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url(../images/about-bg.jpg);
+}
