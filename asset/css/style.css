@@ -145,17 +145,43 @@ a {
 }
 
 .counter-content .count {
-    width: 33.33%;
     float: left;
+    width: 33.33%;
 }
 
 .counter-content .count h3 {
-    margin: 0 0 20px 0;
     font-size: 40px;
     font-weight: 900;
+    margin: 0 0 20px 0;
 }
 
 .counter-content .count p {
     margin: 0;
     letter-spacing: 2px;
+}
+
+/* Footer */
+#footer {
+    background-color: #0b0e17;
+}
+
+.footer {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer .title a {
+    color: #fff;
+    font-size: 38px;
+    text-decoration: none;
+}
+
+.footer .title a span {
+    color: #0f8038;
+}
+
+.footer p {
+    margin: 0;
+    color: gainsboro;
 }
